@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="images\png-clipart-m-letter-cursive-m-m-s-s-text-logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> InPhoneMation
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <input type="text" id="txtName"/>
+    <input type="button" id = "btnCopy" value="translateText" onclick = "translatetext()" />
+    <hr />
+    <label id = "lblName"></label>
+    <p class="output" id="output1"></p>
+    <form role="form" method="post" id="translate" action=" https://vdnq9zkxe4.execute-api.us-east-1.amazonaws.com/translate/translate"></form>
+   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item active" id="nowMenu">
+            </li>
+        </ul>
+    </div>
+</nav>
+<script src="js/trans.js"></script>
